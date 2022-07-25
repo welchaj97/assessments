@@ -1,11 +1,6 @@
 import json, requests
 from json_search import JsonPlaceholderSearch
 
-# helper function to swap the values returned from the comments API
-def swap(list, pos1, pos2):
-    list[pos1], list[pos2] = list[pos2], list[pos1]
-    return list 
-
 # instantiating a class object 
 new_search = JsonPlaceholderSearch()
 
