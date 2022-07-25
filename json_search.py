@@ -1,5 +1,5 @@
 import json, requests, traceback
-from json_data import JsonPlaceholderData, JsonCommentData
+from json_data import JsonPlaceholderData
 
 
 class JsonPlaceholderSearch:
